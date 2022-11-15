@@ -181,7 +181,7 @@ left: 0;
 
 }
 .bg-color {
-background: #252f5a;  
+background: #000;  
 }
 .easiest .section-title {
   margin: 0;
@@ -269,7 +269,7 @@ padding: 8px 0;
   padding-bottom: 2rem;
 } 
 .footer-bottom {
-  background: #252f5a;
+  background: #000;
   padding-top: 18px;
   padding-bottom: 18px;
 }
