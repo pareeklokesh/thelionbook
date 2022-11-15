@@ -9,7 +9,7 @@ body {
  user-select: none;
 }
 .header {
-  background: linear-gradient(to bottom, #febd00, #f5a601);
+  background: #000;
   padding-top: 15px;
 padding-bottom: 15px;
 }
@@ -18,7 +18,7 @@ padding-bottom: 15px;
 }
 .login span {
   display: block;
-  color: #654900;
+  color: #fff;
   font-size: 16px;
 }
 .login a {
@@ -181,23 +181,23 @@ left: 0;
 
 }
 .bg-color {
-background: linear-gradient(to bottom, #febd00, #f5a601);  
+background: #252f5a;  
 }
 .easiest .section-title {
   margin: 0;
   display: block;
   padding: 60px 0;
-  color: #654900;
+  color: #fff;
 }
 .easiest p {
   font-size: 20px;
-  color: #654900;
+  color: #fff;
   line-height: 30px;
   margin-bottom: 30px;
 }
 .easiest strong {
   font-size: 20px;
-  color: #654900;
+  color: #fff;
   line-height: 30px;
 } 
 .easiest-content {
@@ -246,8 +246,8 @@ margin-bottom: 80px;
 .quick-links li a {
   font-size: 14px;
   text-decoration: none;
-  color: #654900;
-  border-bottom: 1px solid #cb981b;
+  color: #fff;
+  border-bottom: 0px solid #cb981b;
   min-width: 210px;
   display: inline-block;
 padding: 8px 0;
@@ -257,7 +257,7 @@ padding: 8px 0;
   text-align: left;
   line-height: 2rem;
   margin-bottom: 2rem;
-  color: #252525;
+  color: #fff;
 }
 .certificates img {
   margin-bottom: 15px;
@@ -290,7 +290,7 @@ padding: 8px 0;
 .loop .owl-item .item {
   box-shadow: 0 0 10px 0 #ddd;
 padding: 70px 70px;
-background: linear-gradient(to bottom, #febd00, #f5a601);
+background: #252f5a;
 border-radius: 20px;
 }
 .loop .owl-stage {
@@ -844,7 +844,7 @@ color: #8d8e97;
 .testionial-name strong {
   display: block;
   font-size: 18px;
-color: #654900;
+color: #fff;
 white-space: nowrap;
 }
 .loop .owl-item {
@@ -897,7 +897,7 @@ white-space: nowrap;
   padding: 40px 0 20px 0;
 }
 .testimonial .w-auto p {
-  color: #654900;
+  color: #fff;
   letter-spacing: 1px;
 }
 
@@ -1102,9 +1102,10 @@ margin-bottom: 80px;
 text-transform: capitalize;
 letter-spacing: 1px;
 cursor: pointer;
+color: #fff;
 }
 .footer-textclass {
-  color: #654900;
+  color: #fff;
   font-size: 14px;
   margin-top: 36px;
   line-height: 27px;
@@ -1153,10 +1154,29 @@ bottom: 0px;
 .most-popular span::after {
   display: none;
 }
-.most-popular span {
-  font-size: 32px;
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
 }
-
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 4s infinite;
+  animation-delay: calc(.1s * var(--i));
+  font-size: 32px;
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
 
 
 
