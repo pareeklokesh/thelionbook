@@ -1147,6 +1147,16 @@ bottom: 0px;
 .overlay.click_event {
   display: none;
 }
+.most-popular {
+  padding: 60px 0;
+}
+.most-popular span::after {
+  display: none;
+}
+.most-popular span {
+  font-size: 32px;
+}
+
 
 
 
