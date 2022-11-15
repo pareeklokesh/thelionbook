@@ -870,7 +870,7 @@ white-space: nowrap;
   display: block !important;
 }
 .testimonial .owl-nav button {
-  background:linear-gradient(to bottom, #febd00, #f5a601) !important;
+  background:#252f5a !important;
   width: 40px;
   height: 40px;
   position: relative !important;
