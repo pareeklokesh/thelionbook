@@ -909,8 +909,39 @@ white-space: nowrap;
   color: #fff;
   letter-spacing: 1px;
 }
+.download-btn-mb a {
+  text-decoration: none;
+  background: #f78900;
+  color: #fff;
+  padding: 9px 30px;
+  border-radius: 25px;
+  letter-spacing: 1px;
+}
+.download-btn-mb {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  background: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  border-top: 1px solid #4a4a4a;
+  display: none;
+}
+
+
+
+
 
 @media (max-width: 767px) {
+  .download-btn-mb {
+    display: flex;
+  }
+  .footer-bottom {
+  margin-bottom: 58px;
+}
   .testimonial .d-flex {
   flex-wrap: wrap;
   justify-content: center;
