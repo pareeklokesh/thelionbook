@@ -958,7 +958,7 @@ white-space: nowrap;
   display: block;
   width: 113px;
   height: 2px;
-background: #fbe433;
+background: #f98a00;
 position: absolute;
 bottom: -3px;
 left: 0;
@@ -987,7 +987,7 @@ left: 0;
   color: #000;
 }
 .button-class {
-  background: linear-gradient(180deg,#9cea13,#277907);
+  background: #f98a00;
   border: 0;
   outline: none;
   text-transform: uppercase;
@@ -1035,7 +1035,7 @@ left: 0;
     margin-bottom: 30px;
 }
 .icon-bx-wraper .icon-bx-sm.radius.bg-primary {
-  background-color: #ffc300 !important;
+  background-color: #f98a00 !important;
 }
 .icon-bx-sm {
     width: 80px;
@@ -1047,7 +1047,7 @@ left: 0;
     justify-content: center;
 }
 .icon-bx-sm a i {
-  color: #252525;
+  color: #fff;
   font-size: 30px;
 }
 .icon-bx-sm a  {
