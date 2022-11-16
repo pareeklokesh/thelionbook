@@ -1159,6 +1159,7 @@ bottom: 0px;
 }
 .most-popular {
   padding: 20px 0;
+  padding-bottom: 10px;
 }
 .most-popular span::after {
   display: none;
