@@ -304,6 +304,9 @@ border-radius: 20px;
 .destop-none {
   display: none;
 }
+.most-popular.waviy br {
+  display: none;
+}
 
 
 
@@ -1211,6 +1214,9 @@ bottom: 0px;
 }
 .section-title strong {
   font-size: 38px;
+}
+.most-popular.waviy br {
+  display: block;
 }
 
 }
