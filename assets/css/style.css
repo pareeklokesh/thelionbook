@@ -182,23 +182,23 @@ left: 0;
 
 }
 .bg-color {
-background: #000;  
+background: #ebb22e;  
 }
 .easiest .section-title {
   margin: 0;
   display: block;
   padding: 60px 0;
-  color: #fff;
+  color: #000;
 }
 .easiest p {
   font-size: 20px;
-  color: #fff;
+  color: #000;
   line-height: 30px;
   margin-bottom: 30px;
 }
 .easiest strong {
   font-size: 20px;
-  color: #fff;
+  color: #000;
   line-height: 30px;
 } 
 .easiest-content {
@@ -247,7 +247,7 @@ margin-bottom: 80px;
 .quick-links li a {
   font-size: 14px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   border-bottom: 0px solid #cb981b;
   min-width: 210px;
   display: inline-block;
@@ -258,7 +258,7 @@ padding: 8px 0;
   text-align: left;
   line-height: 2rem;
   margin-bottom: 2rem;
-  color: #fff;
+  color: #000;
 }
 .certificates img {
   margin-bottom: 15px;
@@ -270,7 +270,7 @@ padding: 8px 0;
   padding-bottom: 2rem;
 } 
 .footer-bottom {
-  background: #000;
+  background: #ebb22e;
   padding-top: 18px;
   padding-bottom: 18px;
 }
@@ -278,7 +278,8 @@ padding: 8px 0;
   margin: 0;
   display: block;
   font-size: 14px;
-  color: hsla(0,0%,100%,.5);
+  color: #000;
+opacity: 0.6;
 }
 /*.loop .owl-item {
   box-shadow: 0 0 10px 0 #ddd;
@@ -291,7 +292,7 @@ padding: 8px 0;
 .loop .owl-item .item {
   box-shadow: 0 0 10px 0 #ddd;
 padding: 70px 70px;
-background: #252f5a;
+background: #ebb22e;
 border-radius: 20px;
 }
 .loop .owl-stage {
@@ -476,7 +477,7 @@ top: 2px;
   transition: all .4s linear;
 }
 .quick-links li a:hover {
-  color: #fff;
+  color: #000;
   padding-left: 5px;
 }
 
@@ -664,7 +665,7 @@ display: grid !important;
 
 
 .game_portfolio_section2 {
-    background-color: #000;
+    background-color: #ebb22e;
     padding-bottom: 30px;
     padding-top: 0px;
 }
@@ -679,7 +680,7 @@ display: grid !important;
     border-bottom: 2px solid #dadada;
     border-radius: 0;
     padding: 8px 0px 2px 0px;
-    color: #fff;
+    color: #000;
 }
 
 .game_portfolio_section2 .nav-pills .nav-item a {
@@ -732,7 +733,7 @@ display: grid !important;
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     border: 1px solid #fff;
     background-color: transparent;
     opacity: 0;
@@ -755,7 +756,7 @@ img.img-fluid.border-role {
     position: relative;
     text-align: center;
     cursor: pointer;
-    border: 3px solid #f5a601;
+    border: 3px solid #000;
     box-shadow: 0px 5px 6px #555555ab;
     border-radius: 14px;
 }
@@ -853,7 +854,7 @@ color: #8d8e97;
 .testionial-name strong {
   display: block;
   font-size: 18px;
-color: #fff;
+color: #000;
 white-space: nowrap;
 }
 .loop .owl-item {
@@ -879,7 +880,7 @@ white-space: nowrap;
   display: block !important;
 }
 .testimonial .owl-nav button {
-  background:#252f5a !important;
+  background:#ebb22e !important;
   width: 40px;
   height: 40px;
   position: relative !important;
@@ -893,7 +894,7 @@ white-space: nowrap;
   left: 0 !important;
   right: 0 !important;
   top: 0px !important;
-  color: #fff;
+  color: #000;
 }
 .testimonial .owl-nav .owl-prev {
   margin-right: 15px;
@@ -906,13 +907,13 @@ white-space: nowrap;
   padding: 40px 0 20px 0;
 }
 .testimonial .w-auto p {
-  color: #fff;
+  color: #000;
   letter-spacing: 1px;
 }
 .download-btn-mb a {
   text-decoration: none;
   background: #f78900;
-  color: #fff;
+  color: #000;
   padding: 9px 30px;
   border-radius: 25px;
   letter-spacing: 1px;
@@ -1078,7 +1079,7 @@ left: 0;
     justify-content: center;
 }
 .icon-bx-sm a i {
-  color: #fff;
+  color: #000;
   font-size: 30px;
 }
 .icon-bx-sm a  {
@@ -1142,10 +1143,10 @@ margin-bottom: 80px;
 text-transform: capitalize;
 letter-spacing: 1px;
 cursor: pointer;
-color: #fff;
+color: #000;
 }
 .footer-textclass {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   margin-top: 36px;
   line-height: 27px;
@@ -1203,7 +1204,7 @@ bottom: 0px;
 .waviy span {
   position: relative;
   display: inline-block;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   animation: waviy 4s infinite;
   animation-delay: calc(.1s * var(--i));
